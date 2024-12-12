@@ -5,13 +5,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_margin="24dp"
-        android:background="@color/cardview_dark_background"
+        android:background="@drawable/rounded_bg"
         >
 
         <LinearLayout
@@ -89,6 +90,7 @@
                 android:id="@+id/btnHapus"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#FF0000"
                 android:layout_marginHorizontal="8dp"
                 android:layout_weight="1"
                 android:text="Hapus" />
@@ -99,6 +101,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:layout_weight="1"
+                android:backgroundTint="#9220FF"
                 android:text="Ubah" />
 
             <Button
@@ -107,7 +110,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:layout_weight="1"
-                android:text="Kerjakan" />
+                android:text="Kerjakan"
+                android:backgroundTint="#10FF20"/>
         </LinearLayout>
 
 
